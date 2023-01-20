@@ -372,6 +372,10 @@ img {
     height: auto
 }
 
+.project-image {
+    height: 20rem;
+}
+
 .img-rounded {
     border-radius: 6px
 }
