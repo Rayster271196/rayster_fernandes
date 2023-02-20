@@ -1489,6 +1489,38 @@ pre code {
     }
 }
 
+/* Center the list */
+.ul-hobby {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style each list item */
+.li-hobby {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+/* Style the hobby logo */
+.img-hobby {
+    width: 4rem;
+    height: 4rem;
+    margin-right: 10px;
+}
+
+.p-hobby {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 0;
+}
+
+
+
 @media (min-width:992px) {
 
     .col-md-1,
