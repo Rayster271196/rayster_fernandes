@@ -1,0 +1,118 @@
+/* Layout Components */
+.content-wrapper {
+  position: relative;
+  z-index: 1;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.col-xs-12 {
+  width: 100%;
+  padding: 0 15px;
+}
+
+.col-md-profile {
+  flex: 0 0 auto;
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 1.5rem;
+}
+
+.col-md-8 {
+  flex: 0 0 auto;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .row {
+    display: flex;
+  }
+  
+  .col-md-profile {
+    margin-right: 2rem;
+    margin-bottom: 0;
+  }
+  
+  .col-md-8 {
+    flex: 1;
+  }
+}
+
+/* Header */
+header.white-text-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+  color: white;
+  position: relative;
+}
+
+header.white-text-container .text-center h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: clamp(2.5rem, 5vw, 4.5rem);
+  font-weight: 700;
+  margin-bottom: 1rem;
+  animation: fadeInUp 0.8s ease-out;
+  text-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+}
+
+header.white-text-container .text-center > p:first-of-type {
+  font-size: clamp(1.2rem, 2.5vw, 1.8rem);
+  font-weight: 400;
+  margin-bottom: 2rem;
+  opacity: 0.95;
+  animation: fadeInUp 0.8s ease-out 0.2s both;
+}
+
+header.white-text-container .fa-icon {
+  color: white;
+  margin: 0 1rem;
+  transition: all 0.3s ease;
+  display: inline-block;
+  font-size: 1.5rem;
+}
+
+header.white-text-container .fa-icon:hover {
+  transform: translateY(-5px) scale(1.1);
+  color: #fbbf24;
+}
+
+/* Footer */
+.footer-container {
+  background: var(--text-primary);
+  color: white;
+  padding: 3rem 0;
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.footer-container p {
+  margin: 0.5rem 0;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-container .fa-icon {
+  color: white;
+  margin: 0 0.75rem;
+  transition: all 0.3s ease;
+  font-size: 1.5rem;
+}
+
+.footer-container .fa-icon:hover {
+  transform: translateY(-5px) scale(1.1);
+  color: #fbbf24;
+}
+

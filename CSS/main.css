@@ -1,0 +1,7 @@
+/* Main Stylesheet - Imports all modular CSS files */
+@import url('./variables.css');
+@import url('./base.css');
+@import url('./animations.css');
+@import url('./background.css');
+@import url('./layout.css');
+@import url('./components.css');
