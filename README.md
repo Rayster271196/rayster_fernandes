@@ -14,7 +14,6 @@ A modern, responsive portfolio website showcasing professional experience, skill
 
 ## 📞 Contact
 
-- **Email**: raysterfds@gmail.com
 - **LinkedIn**: [rayster-fernandes-17583514b](https://www.linkedin.com/in/rayster-fernandes-17583514b/)
 - **GitHub**: [Rayster271196](https://github.com/Rayster271196)
 - **Instagram**: [@rayster_fernandes](https://instagram.com/rayster_fernandes/)
